@@ -1,0 +1,159 @@
+
+/************************************************** BODY-PART1-NAV-BAR ****************************************/
+
+
+#navbar{
+  background-color:rgb(17, 17, 45); 
+  position: fixed;
+  width: 99%;
+  text-align: end;
+  
+}
+
+#navbar ul{
+  display:inline-flex;
+  list-style: none;
+  font-size: 25px;
+  padding-right:50px;
+  font-size: 35px;
+  margin: 2px 0;
+}
+
+#navbar ul li{
+  margin: 15px;
+  padding: 15px;
+  
+  
+ }
+
+ #navbar ul li a{
+  color:white;
+  text-decoration: none;
+  margin: 10px;
+ }
+
+
+/************************************************** BODY-PART2-WELCOME SECTION ***********************************************/
+#welcome-section{
+  background-color: gainsboro;
+  padding:15%;
+  text-align: center;
+  font-size: 150%;
+}
+
+
+/************************************************** BODY-PART3-MY PROJECTS-H1 ***************************************************/
+
+#projects > h1{
+  text-align: center;
+  font-size: 35px; 
+  padding-top: 40px;
+  
+}
+
+/******************************************* BODY-PART3-MY PROJECTS-#PROJECT-TILE ***********************************************/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  justify-items: center; 
+  align-items: center; 
+  margin: 20px;
+}
+.project-tile {
+  
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+img{
+  display: block;
+  width: 100%;
+
+}
+
+a{
+ text-decoration: none;
+ color: white;
+  }
+  
+  span{
+    background-color:rgb(24, 24, 69);
+    
+  }
+  p{
+    background-color:rgb(24, 24, 69);
+    margin:0;
+    padding:20px;
+  }
+/******************************************* BODY-MEDIA QUERY ***********************************************/
+
+@media (max-width:550px){
+  #navbar{
+    background-color:rgb(12, 47, 99);  
+  }
+  #welcome-section{
+    background-color: rgb(16, 104, 126);
+    color: white;
+   
+  }
+  
+  
+}
+
+/***************************************** FOOTER *************************************************************/
+footer {
+  background-color: rgb(17, 17, 45);
+  color: white;
+  text-align: center;
+  padding: 10%; 
+}
+/******************************************* FOOTER-PART1-H1 ******************************************************/
+footer > h1{
+  text-align: center;
+  font-size: 50px; 
+  
+}
+
+/***************************************** FOOTER-PART2-MENU-BAR ***********************************************/
+#menu-bar{
+  text-align: center;
+  background-color: rgb(34, 34, 105);
+  
+}
+
+#menu-bar ul{
+  display:inline-flex;
+  list-style: none;
+  font-size: 30px;
+ 
+}
+
+#menu-bar ul li{
+
+ margin: 15px;
+ padding: 15px;
+ 
+}
+
+#menu-bar ul li a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+ 
+ }
+
+
+ .fa-brands{
+  margin-right: 5px;
+ }
+
+
+ .fa-solid{
+  margin-right: 5px;
+ }
+
+
+
+
